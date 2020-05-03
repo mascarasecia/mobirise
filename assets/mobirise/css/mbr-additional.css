@@ -750,7 +750,7 @@ section.lazy-placeholder:after {
 }
 .cid-rWVCsfy1MD {
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 60px;
   background-color: #efefef;
 }
 .cid-rWVCsfy1MD .mbr-slider .carousel-control {
@@ -809,6 +809,9 @@ section.lazy-placeholder:after {
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #b17fff, #45505b) !important;
+}
+.cid-rWVCsfy1MD .mbr-gallery-item > div > span {
+  text-align: center;
 }
 .cid-rWVixFhGKg {
   padding-top: 45px;
