@@ -813,13 +813,67 @@ section.lazy-placeholder:after {
 .cid-rWVCsfy1MD .mbr-gallery-item > div > span {
   text-align: center;
 }
+.cid-rZEGNYX0aQ {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-rZEGNYX0aQ .mbr-section-subtitle {
+  color: #767676;
+  text-align: center;
+  font-weight: 300;
+}
+.cid-rZEGNYX0aQ .step {
+  width: 72px;
+  height: 72px;
+  font-size: 36px;
+  border-radius: 50%;
+  border: 2px solid #f7547d;
+  padding-bottom: 0;
+}
+@media (min-width: 768px) {
+  .cid-rZEGNYX0aQ .separline .step-wrapper {
+    position: relative;
+  }
+  .cid-rZEGNYX0aQ .separline .step-wrapper:before,
+  .cid-rZEGNYX0aQ .separline .step-wrapper:after {
+    top: 38px;
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: calc(50% + 15px - 36px - 8px);
+    background-color: #f7547d;
+  }
+  .cid-rZEGNYX0aQ .separline .step-wrapper:before {
+    left: -15px;
+  }
+  .cid-rZEGNYX0aQ .separline .step-wrapper:after {
+    left: calc(50% + 8px + 36px);
+  }
+  .cid-rZEGNYX0aQ .separline.last-child .step-wrapper:after,
+  .cid-rZEGNYX0aQ .separline:nth-child(3n) .step-wrapper:after,
+  .cid-rZEGNYX0aQ .separline:nth-child(3n+1) .step-wrapper:before {
+    background: none;
+  }
+}
+@media (max-width: 767px) {
+  .cid-rZEGNYX0aQ .card:not(.last-child) {
+    padding-bottom: 1.5rem;
+  }
+}
+.cid-rZEGNYX0aQ .mbr-step-text {
+  text-align: left;
+}
+.cid-rZEGNYX0aQ .mbr-step-title {
+  text-align: left;
+}
 .cid-rWVixFhGKg {
   padding-top: 45px;
   padding-bottom: 15px;
   background-color: #d145a9;
 }
 .cid-rWVixFhGKg .mbr-section-subtitle {
-  color: #767676;
+  color: #020101;
 }
 .cid-rWVixFhGKg .media-row {
   display: -webkit-flex;
@@ -1154,11 +1208,11 @@ section.lazy-placeholder:after {
   margin: 0 0 .5rem 0;
 }
 .cid-rYiCbcLxFy H2 {
-  text-align: center;
+  text-align: left;
   color: #020101;
 }
 .cid-rYiCbcLxFy H3 {
-  color: #ffffff;
+  color: #d30000;
   text-align: center;
 }
 .cid-rWVhCTQA3J {
@@ -1221,5 +1275,5 @@ section.lazy-placeholder:after {
 }
 .cid-rWVhCTQA3J .plan-title {
   text-align: center;
-  color: #232323;
+  color: #f31f1f;
 }
